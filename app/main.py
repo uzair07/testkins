@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Nth Change"
+    return "N+1 Change"
 
 if __name__ == "__main__":
     # Only for debugging while developing
